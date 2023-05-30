@@ -9,5 +9,16 @@
 }
 
 #foto{
-    border: none;
+    padding: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px 0px rgb(0, 3, 3);
+}
+
+.tbHabilidades{
+    border: 1px;
+    border-color: black;
+}
+
+.exp{
+    margin-right: 5vh;
 }
