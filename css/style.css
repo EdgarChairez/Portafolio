@@ -10,9 +10,12 @@
     #habilidades{
         display: none;
     }
+    #curriculum{
+        margin-bottom: 5%;;
+    }
 }
 
-@media (min-width: 500px){
+@media (min-width: 501px){
     #habilidades2{
         display: none;
     }
@@ -57,4 +60,22 @@
 .icono{
     color: white;
     padding: 0.5rem;
+}
+
+.cambio{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.cambio:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+.formacion{
+    margin: 0px;
+}
+
+.fecha{
+    background-color: rgba(0, 0, 0, 0.3);
 }
