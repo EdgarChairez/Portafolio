@@ -13,12 +13,23 @@
     #curriculum{
         margin-bottom: 5%;;
     }
+    #foto{
+        max-width: 300px;
+    }
 }
 
 @media (min-width: 501px){
     #habilidades2{
         display: none;
     }
+
+}
+
+@media (max-width: 350px){
+    #foto{
+        display: none;
+    }
+
 }
 
 #acercaDeMi h1{
@@ -42,6 +53,11 @@
 #pie p{
     color: aquamarine;
 }
+
+#formulario{
+    border-radius: 15px;
+}
+
 
 .tbHabilidades{
     border: 1px;
